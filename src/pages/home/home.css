@@ -1,0 +1,17 @@
+.container{
+      padding:20px 2% 20px 17%;
+      background: black;
+}
+
+.large-container{
+      margin-left: 7%;
+      background: black;
+}
+
+/* now i will make our clone responsive */
+@media(max-width:900px){
+      .large-container, .container{
+            padding-left: 5%;
+            padding-right: 5%;
+      }
+}
