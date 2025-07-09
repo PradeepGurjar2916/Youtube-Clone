@@ -35,7 +35,7 @@ const Navbar = ({setsidebar}) => {
     e.preventDefault(); // Prevent the default form submission
     let searchString=search_string;
     setsearch_string(''); // Clear the input field after search
-    window.open(`http://localhost:5173/searched/${searchString}`,"_self");
+    window.open(`https://youtube-clone-pkg.vercel.app/searched/${searchString}`,"_self");
   };
 
   return (

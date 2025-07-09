@@ -23,7 +23,7 @@ const Feed_search = ({string_searched}) => {
       <div className="feed">
             {data.map((item,index)=>{
                  return(
-                  <a key={index} href={`http://localhost:5173/video/0/${item.id.videoId}`} className='card'>
+                  <a key={index} href={`https://youtube-clone-pkg.vercel.app/video/0/${item.id.videoId}`} className='card'>
                         <img src={item.snippet.thumbnails.medium.url} alt="" />
                         <h2>{item.snippet.title}</h2>
                         <h3>{item.snippet.channelTitle}</h3>
